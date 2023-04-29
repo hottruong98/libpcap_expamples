@@ -1,3 +1,4 @@
+// Compile with: g++ -o getDeviceInfo get_device_info.cpp -lpcap
 #include <iostream>
 #include <pcap.h>
 #include <arpa/inet.h>
