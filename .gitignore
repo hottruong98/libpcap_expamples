@@ -1,0 +1,17 @@
+# Ignore all
+*
+# Unignore those with extensions
+!*.*
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files, except the ones with an extension ###
+
+# Ignore .vscode dir
+/.vscode
+# Ignore cmake files
+*/CMakeFiles/*
+*.cmake
+CMakeCache.txt
+#Ignore .exe
+*.exe*
