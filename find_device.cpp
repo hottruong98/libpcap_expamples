@@ -8,6 +8,7 @@ int main(int argc, char *argv[]) {
     char *device;
     char error_buffer[PCAP_ERRBUF_SIZE];
 
+    // Find a device
     device = pcap_lookupdev(error_buffer);
     if (device == NULL) {
         std::cout << "Error finding device: " << error_buffer << std::endl;
